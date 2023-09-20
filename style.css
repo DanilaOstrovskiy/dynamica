@@ -1,0 +1,539 @@
+/***подключение шрифтов***/
+
+@font-face {
+    font-family: 'Golos-text_Regular';
+    src: url('fonts/Golos-text_Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+
+
+}
+
+@font-face {
+    font-family: 'Golos-Text_Medium';
+    src: url('fonts/Golos-Text_Medium.ttf') format('truetype'); /* Safari, Android, iOS */
+
+
+}
+
+@font-face {
+    font-family: 'Golos-Text_Bold';
+    src: url('fonts/Golos-Text_Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+
+
+}
+
+/****универсальные классы***/
+/***описание стилей и шапки меню***/
+
+html, body {
+    background-color: #EEEEED;
+
+
+}
+
+.btn {
+    background-color: #875B96;
+}
+
+
+.header__background {
+    background-color: #ffff;
+    padding: 33px 0 31px 0;
+
+
+}
+
+
+.header__logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header__menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 11px;
+    padding: 0px;
+
+
+}
+
+.header__navigation li a:hover {
+    color: #875B96;
+}
+
+
+.header__menu li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header__menu li a {
+    font-family: 'Golos-Text_Medium';
+    text-decoration: none;
+    color: black;
+
+}
+
+
+/****основной контент****/
+
+.main__background {
+    height: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding-bottom: 75px;
+    padding-top: 5px;
+    background-image: url('img/hands.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: auto;
+    background-position: center;
+    color: white;
+
+
+}
+
+
+.main__title {
+    font-family: 'Golos-Text_Bold';
+    font-size: 33px;
+
+}
+
+.main__suptitle {
+    font-family: 'Golos-Text_Regular';
+    font-size: 20px;
+}
+
+
+/*****о нас****/
+
+.aboutUs__background {
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 151px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.aboutUS__text {
+    text-align: justify;
+/*    font-size: large;*/
+    font-size: 27px;
+
+}
+
+.aboutUs img {
+    min-height: 395px;
+    min-width: 669px;
+
+}
+
+.aboutUs__background h1 {
+    font-family: 'Golos-Text_Medium';
+
+
+}
+
+.aboutUs__background p {
+    font-family: 'Golos-Text_Regular';
+}
+
+
+/*****О руках*****/
+
+.aboutArms__background {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 580px;
+
+}
+
+
+.aboutArms__title {
+    font-family: 'Golos-Text_Medium';
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
+.aboutArms__text {
+    font-family: 'Golos-Text_Medium';
+    text-align: justify;
+    list-style-type: none;
+
+}
+
+
+.aboutArms__buttons {
+    font-family: 'Golos-Text_Regular';
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+/****Протезы***/
+
+.prosthetics__background {
+    min-height: 850px;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+}
+
+.prosthetics__title {
+    font-family: 'Golos-Text_Medium';
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.card {
+    flex-direction: column;
+}
+
+
+
+
+/****отзывы****/
+
+.reviews__background {
+    height: 860px;
+    font-family: 'Golos-text_regular';
+}
+
+
+.carousel {
+    width: 428px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.reviews__title {
+    font-family: 'Golos-Text_Medium';
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+/***Контакты***/
+
+.contacts__background {
+    background-color: white;
+    height: 428px;
+
+
+}
+
+.contacts__background h1 {
+    font-family: 'Golos-text_Medium';
+}
+
+.contacts__background h3, p {
+    font-family: 'Golos-text_Regular';
+}
+
+.contacts__title {
+    padding-top: 50px;
+}
+
+.contacts__form {
+    font-family: 'Golos-text_Regular';
+    padding-top: 50px;
+}
+
+/***footer***/
+
+.footer__background {
+    background-color: black;
+    font-family: 'Golos-text_regular';
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.footer__social li {
+    list-style-type: none;
+    font-size: 30px;
+    padding-top: 3px;
+
+}
+
+.footer__social li a {
+    color: white;
+
+}
+
+.footer__copyright {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-top: 17px;
+}
+
+.footer__policy {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-top: 5px;
+
+}
+
+.footer__policy:hover {
+    color: white;
+}
+
+.footer__policy:hover a {
+    color: white;
+
+
+}
+
+@media screen and (max-width: 1699px) {
+    .prosthetics__background {
+        height: 950px;
+
+
+    }
+
+}
+
+@media screen and (max-width: 1399px) {
+    .main__title {
+        font-size: 25px;
+
+    }
+
+    .main__suptitle {
+        font-size: 15px;
+    }
+
+    .prosthetics__background {
+        height: 950px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 1199px) {
+
+    .header__menu {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+
+    .main__background {
+        height: 340px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        margin-top: 0px;
+        padding-bottom: 75px;
+        padding-top: 5px;
+        background-image: url('img/hands.jpg');
+        background-repeat: no-repeat;
+        background-size: 1199px;
+        background-attachment: scroll;
+        color: white;
+
+    }
+
+    .main__title {
+        font-size: 25px;
+        justify-content: end;
+
+    }
+
+    .main__suptitle {
+        font-size: 12px;
+    }
+
+    .prosthetics__background {
+        height: 920px;
+
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .aboutUs__background {
+        background-color: white;
+        padding-top: 25px;
+        padding-bottom: 35px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+
+    .main__title {
+        font-size: 18px;
+        justify-content: end;
+
+    }
+
+    .main__suptitle {
+        font-size: 12px;
+    }
+
+    .aboutUs__foto {
+        text-align: center;
+    }
+
+    .aboutUs__title {
+        text-align: center;
+    }
+
+    .aboutArms__background {
+        height: 650px;
+
+    }
+
+    .aboutArms__buttons {
+        padding-bottom: 25px;
+    }
+
+    .prosthetics__background {
+        height: 910px;
+
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .header__menu {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main__title {
+        font-size: 36px;
+        text-align: center;
+
+    }
+
+    .main__suptitle {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .main__background {
+        height: 340px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 0px;
+        padding-bottom: 75px;
+        padding-top: 5px;
+        background-image: url('img/hands.jpg');
+        background-repeat: no-repeat;
+        background-size: 767px;
+        background-attachment: scroll;
+        color: white;
+
+    }
+
+    .aboutUs__title {
+        text-align: center;
+    }
+
+    .aboutArms__background {
+        height: 690px;
+
+    }
+
+    .aboutArms__buttons {
+        padding-bottom: 25px;
+    }
+
+    .prosthetics__background {
+        height: 1000px;
+
+
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+    .main__title {
+        font-size: 28px;
+        padding-right: 7px;
+        text-align: center;
+
+    }
+
+    .main__suptitle {
+        text-align: center;
+    }
+
+
+    .main__suptitle {
+        font-size: 11px;
+        padding-right: 20px
+    }
+
+    .aboutArms__background {
+        height: 750px;
+
+    }
+
+    .aboutArms__buttons {
+        padding-bottom: 25px;
+    }
+
+    .prosthetics__background {
+        height: 2250px;
+
+
+    }
+
+    .reviews__background {
+        height: 800px;
+
+    }
+
+    .contacts__background {
+        height: 630px;
+    }
+
+    .footer__background {
+        text-align: center;
+    }
+
+}
